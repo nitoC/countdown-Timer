@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background-color:black;
+  color:white;
+  font-family:arial;
+  
+}
+#break-label,#session-label{
+  display:inline-block;
+  margin-left:4%;
+  box-shadow:inset -3px -3px 4px 3px #111;
+  border-radius:10px;
+}
+
+span p{
+ display:block;
+  width:10%;
+  margin:auto;
+  text-align:center;
+  font-family:Digital;
+    cursor:pointer;
+}
+span p:hover{
+ display:block;
+  width:10%;
+  margin:auto;
+  text-align:center;
+  font-family:Digital;
+    background-color:red;
+}
+input{
+  height:24px;
+  width:60px;
+  background-color:white;
+  display:inline-block;
+  margin-left:3%;
+  color:white;
+  background-color:#111;
+    border-radius:6px;
+  border:none;
+  text-align:center;
+  border-bottom:2px solid #888;
+  margin:auto;
+}
+button{
+  margin-left:15px;
+  font-size:0.5em;
+  border:none;
+  border-radius:3px
+    
+}
+
+
+input::-webkit-outer-spin-button,input::-webkkit-inner-spin-button{
+  webkit-appearance:none;
+}
+input[type="number"]{
+  -moz-appearance:textfield;
+}
